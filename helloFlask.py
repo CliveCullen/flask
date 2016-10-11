@@ -13,3 +13,37 @@ if __name__ == '__main__':
         port=8000
     )
 
+teams = [{
+    'name':'The All Blacks',
+    'rank':'first'},
+    {
+    'name':"England",
+    'rank':'Second'},
+
+    {
+    'name':"Australia",
+    'rank':'Third'},
+    {
+    'name':"South Africa",
+    'rank':'Fourth'},
+    {
+    'name':"wales",
+    'rank':'Fifith'},
+    {
+    'name':"Ireland",
+    'rank':'Sixth'},
+    {
+    'name':"Scotland",
+    'rank':'Seventh'},
+    {
+    'name':"Argentina",
+    'rank':'Eight'},
+    {
+    'name':"France",
+    'rank':'Ninth'},
+    {
+    'name':"Georgia",
+    'rank':'Tenth'}]
+
+def list_albums():
+    return render_template('index.html',data=teams )
