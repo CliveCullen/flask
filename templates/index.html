@@ -14,5 +14,16 @@
     <li>eating a pizza ....mmmmmm!</li>
 </ol>
 
+<ol>
+    {% for team in teams%}
+
+    <li> {{ team.name }}</li>
+    <p>{{team.rank}}</p>
+
+
+
+    {% endfor %}
+</ol>
+
 </body>
 </html>

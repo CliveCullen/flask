@@ -47,4 +47,4 @@ teams = [{
 
 @app.route('/teams')
 def list_teams():
-    return render_template('index.html',data=teams )
+    return render_template('index.html',teams=teams )
