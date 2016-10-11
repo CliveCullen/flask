@@ -17,32 +17,32 @@ teams = [{
     'name':'The All Blacks',
     'rank':'first'},
     {
-    'name':"England",
+    'name':'England',
     'rank':'Second'},
 
     {
-    'name':"Australia",
+    'name':'Australia',
     'rank':'Third'},
     {
-    'name':"South Africa",
+    'name':'South Africa',
     'rank':'Fourth'},
     {
-    'name':"wales",
+    'name':'wales',
     'rank':'Fifith'},
     {
-    'name':"Ireland",
+    'name':'Ireland',
     'rank':'Sixth'},
     {
-    'name':"Scotland",
+    'name':'Scotland',
     'rank':'Seventh'},
     {
-    'name':"Argentina",
+    'name':'Argentina',
     'rank':'Eight'},
     {
-    'name':"France",
+    'name':'France',
     'rank':'Ninth'},
     {
-    'name':"Georgia",
+    'name':'Georgia',
     'rank':'Tenth'}]
 
 @app.route('/teams')
