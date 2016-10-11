@@ -45,5 +45,6 @@ teams = [{
     'name':"Georgia",
     'rank':'Tenth'}]
 
-def list_albums():
+@app.route('/teams')
+def list_teams():
     return render_template('index.html',data=teams )
