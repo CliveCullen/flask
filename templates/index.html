@@ -17,12 +17,13 @@
     <li>eating a pizza ....mmmmmm!</li>
 </ol>
 
-<h1>Current Rugby Rankings.....just Because</h1>
+
+
 <table>
+    <tr><td><h1>Current Rugby Rankings.....just Because</h1></td></tr>
     {% for team in teams%}
 
     <tr><td> {{team.name}}</td><td>{{team.rank}}<td></tr>
-
 
 
     {% endfor %}
